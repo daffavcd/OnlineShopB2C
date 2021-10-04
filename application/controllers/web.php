@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class web extends MY_Controller
+class Web extends MY_Controller
 {
 
 
@@ -25,10 +25,11 @@ class web extends MY_Controller
         $data['konten'] = $this->load->view('cari', NULL, TRUE);
         $this->load->view('main', $data);
     }
-    public function cari_data(){
-		$respon['respon']='sukses'; 
-		echo json_encode($respon);
-	}
+    public function cari_data()
+    {
+        $respon['respon'] = 'sukses';
+        echo json_encode($respon);
+    }
     public function masuk()
     {
 
