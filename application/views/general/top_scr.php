@@ -260,7 +260,7 @@ $atas = $this->uri->segment(1);
     <div class="atas">
         <div style="padding: 5px;">
             <a href="<?php echo base_url('web') ?>">
-                <img src="<?php echo base_url() ?>component/img/mrshop.png" style="width: 175px;margin-left: 10px;">
+                <img src="https://objectstorage.ap-melbourne-1.oraclecloud.com/n/axg2uln4zrfd/b/mrshop-core/o/mrshop.png" style="width: 175px;margin-left: 10px;">
             </a>
         </div>
         <form id="cari_form">
